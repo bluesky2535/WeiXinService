@@ -1,6 +1,5 @@
 package com.baidu.translate.demo;
 
-import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 

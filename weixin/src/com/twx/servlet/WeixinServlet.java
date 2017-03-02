@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.dom4j.DocumentException;
 
-import com.baidu.translate.demo.TransApi;
 import com.twx.util.CheckUtil;
 import com.twx.util.MessageUtil;
 

@@ -8,7 +8,7 @@ public class XStreamTest {
 	public static void main(String[] args) {
 		XStream xStream = new XStream();
 		TextMessage tm = new TextMessage();
-		tm.setContent("ÄúºÃ£¡");
+		tm.setContent("ï¿½ï¿½Ã£ï¿½");
 		tm.setCreateTime(new Date().getTime());
 		tm.setMsgType("text");
 		tm.setFromUserName("tangwenxing");

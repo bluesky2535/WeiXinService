@@ -2,9 +2,6 @@ package com.baidu.translate.demo;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import jdk.nashorn.internal.parser.JSONParser;
-import net.sf.json.JSON;
-import net.sf.json.JSONObject;
-import net.sf.json.util.JSONUtils;
 
 import com.baidu.translate.demo.TransApi;
 import com.twx.po.BaiduTranslate;

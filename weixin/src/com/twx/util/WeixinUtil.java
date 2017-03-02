@@ -14,6 +14,8 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 
+import net.sf.json.JSONObject;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -29,8 +31,6 @@ import com.twx.menu.ClickButton;
 import com.twx.menu.Menu;
 import com.twx.menu.ViewButton;
 import com.twx.po.AccessToken;
-
-import net.sf.json.JSONObject;
 
 public class WeixinUtil {
 	private static final String APPID = "wx500a2a68b8085412";

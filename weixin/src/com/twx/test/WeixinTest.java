@@ -5,10 +5,10 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 
+import net.sf.json.JSONObject;
+
 import com.twx.po.AccessToken;
 import com.twx.util.WeixinUtil;
-
-import net.sf.json.JSONObject;
 
 public class WeixinTest {
 	public static void main(String[] args) throws KeyManagementException,

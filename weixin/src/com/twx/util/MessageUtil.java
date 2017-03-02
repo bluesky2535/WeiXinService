@@ -10,8 +10,6 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import net.sf.json.JSONObject;
-
 import org.codehaus.jackson.map.ObjectMapper;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -240,7 +238,7 @@ public class MessageUtil {
 		String query = content.substring(2);
 		ObjectMapper o=new ObjectMapper();
 		BaiduTranslate b=   o.readValue(api.getTransResult(query, "auto", "auto"), BaiduTranslate.class);	
-		String result="原文 ： "+b.getTrans_result()[0].getSrc()+"\n"+"译文 : "+b.getTrans_result()[0].getDst();
+		String result="原文 ："+b.getTrans_result()[0].getSrc()+"\n"+b.getTrans_result()[0].getDst();
 		TextMessage tm = new TextMessage();
 		tm.setFromUserName(toUser);
 		tm.setToUserName(fromUser);

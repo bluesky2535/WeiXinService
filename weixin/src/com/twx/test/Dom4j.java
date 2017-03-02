@@ -8,7 +8,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 /**
- * dom4jµÄÓÃ·¨
+ * dom4jï¿½ï¿½ï¿½Ã·ï¿½
  * @author twx
  *
  */
@@ -21,28 +21,28 @@ public class Dom4j {
         List<Element> childElements = root.elements();
         
         for (Element child : childElements) {
-            //Î´ÖªÊôÐÔÃûÇé¿öÏÂ
+            //Î´Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             /*List<Attribute> attributeList = child.attributes();
             for (Attribute attr : attributeList) {
                 System.out.println(attr.getName() + ": " + attr.getValue());
             }*/
              
-            //ÒÑÖªÊôÐÔÃûÇé¿öÏÂ
+            //ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //            System.out.println("id: " + child.attributeValue("id"));
             System.out.println("name: " + child.getName());
             System.out.println("text: " + child.getText());
              
-            //Î´Öª×ÓÔªËØÃûÇé¿öÏÂ
+            //Î´Öªï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             /*List<Element> elementList = child.elements();
             for (Element ele : elementList) {
                 System.out.println(ele.getName() + ": " + ele.getText());
             }
             System.out.println();*/
              
-            //ÒÑÖª×ÓÔªËØÃûµÄÇé¿öÏÂ
+            //ï¿½ï¿½Öªï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //            System.out.println("title" + child.elementText("title"));
 //            System.out.println("author" + child.elementText("author"));
-            //ÕâÐÐÊÇÎªÁË¸ñÊ½»¯ÃÀ¹Û¶ø´æÔÚ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Ë¸ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½Û¶ï¿½ï¿½ï¿½ï¿½
             System.out.println();
         }
 	}
